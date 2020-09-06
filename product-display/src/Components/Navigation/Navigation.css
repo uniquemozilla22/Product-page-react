@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+
+body {
+    background: #cecece
+}
+
+header {
+    background: #000;
+    color: #fff
+}
 
 .left-side,
 .right-side {
@@ -8,15 +18,15 @@
     background: transparent
 }
 
-.navbar-nav>li>a {
+.navbar-nav li a {
     color: #fff
 }
 
-.navbar-nav>li:hover {
+.navbar-nav li:hover {
     border-bottom: 1px solid #fff
 }
 
-.navbar-nav>.active {
+.navbar-nav .active {
     border-bottom: 1px solid #fff
 }
 
@@ -42,7 +52,7 @@
 }
 
 .right-side {
-    padding-top: 150px
+    padding-top: 150px;
 }
 
 .right-side h1 {
